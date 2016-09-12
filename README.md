@@ -9,4 +9,10 @@
 ```
 This is `a variable 
 ```
+$ python run.py
+```
 
+```
+def my_function(a):
+	return a + 10
+```
