@@ -42,12 +42,36 @@ Hunter is cooler than Ben
 ```
  
 
-# functions
-* ?
+#Functions
+* Functions begin with the keyword ```def``` by the functions name and then parantheses ```()```
+* Use ```if-statements``` to solve the problem at hand 
 
-
+###Problem
 ```
-git clone ___
-git add
-git push
+has_teen
+
+A number is a teen if it is in the range 13 to 19 inclusive. Given three integers, return true if any of them are a teen.
+```
+###Answer
+```
+def has_teen(a,b,c):
+	if a >= 13 and a <= 19 or b >= 13 and b <= 19 or c >= 13 and c <= 19:
+		return True
+	else:
+		return False
+
+
+print has_teen (43, 54, 15) # Expect True
+print has_teen (73, 14, 5) # Expect True
+print has_teen (13, 24, 8) # Expect True
+print has_teen (173, 24, 8) # Expect False
+```
+
+##What you should see
+```
+True
+True
+True
+True
+False
 ```
